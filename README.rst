@@ -1,6 +1,8 @@
 django-podcast-feed
 ===================
 
+This version is only usable for Python 2.X versions.
+
 Extra attributes or methods to set on ``PodcastFeed``:
 
 - ``subtitle``
