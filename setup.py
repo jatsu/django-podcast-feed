@@ -1,7 +1,9 @@
 from setuptools import setup, find_packages
 from codecs import open
 
-from podcast_feed import VERSION, NAME, DESCRIPTION
+VERSION = '0.0.3'
+NAME = 'django-podcast-feed'
+DESCRIPTION = 'Generate Apple Podcasts-compatible syndication feeds.'
 
 with open('README.rst', encoding='utf-8') as f:
     long_description = f.read()
